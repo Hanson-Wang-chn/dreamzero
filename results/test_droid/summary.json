@@ -1,0 +1,64 @@
+{
+  "model_path": "./checkpoints",
+  "dataset_path": "/mnt/data/dataset/lerobot/GEAR-Dreams/DreamZero-DROID-Data",
+  "device": "cuda:0",
+  "seed": 3407,
+  "sample_specs": [
+    {
+      "episode_index": 0,
+      "base_index": 24,
+      "note": "early-episode-0"
+    },
+    {
+      "episode_index": 1,
+      "base_index": 24,
+      "note": "early-episode-1"
+    },
+    {
+      "episode_index": 2,
+      "base_index": 24,
+      "note": "early-episode-2"
+    },
+    {
+      "episode_index": 15,
+      "base_index": 24,
+      "note": "brush-pan"
+    },
+    {
+      "episode_index": 42,
+      "base_index": 24,
+      "note": "mid-sample"
+    }
+  ],
+  "summary": {
+    "num_samples": 5,
+    "video_l2_raw_standard_mean": 0.029865963011980058,
+    "video_l2_raw_standard_std": 0.011319333137638733,
+    "video_l2_raw_standard_min": 0.016551407054066658,
+    "video_l2_raw_standard_max": 0.04839373379945755,
+    "video_l2_raw_gt_action_mean": 0.02954495921730995,
+    "video_l2_raw_gt_action_std": 0.010841819162554247,
+    "video_l2_raw_gt_action_min": 0.016411788761615753,
+    "video_l2_raw_gt_action_max": 0.04684099555015564,
+    "video_l2_raw_gt_minus_standard_mean": -0.000321003794670105,
+    "video_l2_raw_gt_minus_standard_std": 0.000630261800753092,
+    "video_l2_raw_gt_minus_standard_min": -0.0015527382493019104,
+    "video_l2_raw_gt_minus_standard_max": 0.00023643486201763153,
+    "video_l2_weighted_standard_mean": 0.03367522209882736,
+    "video_l2_weighted_standard_std": 0.019840264639604872,
+    "video_l2_weighted_standard_min": 0.019458957016468048,
+    "video_l2_weighted_standard_max": 0.0728210061788559,
+    "video_l2_weighted_gt_action_mean": 0.03346498720347881,
+    "video_l2_weighted_gt_action_std": 0.0198259026867053,
+    "video_l2_weighted_gt_action_min": 0.01961793750524521,
+    "video_l2_weighted_gt_action_max": 0.07257498800754547,
+    "video_l2_weighted_gt_minus_standard_mean": -0.0002102348953485489,
+    "video_l2_weighted_gt_minus_standard_std": 0.00028879948993138757,
+    "video_l2_weighted_gt_minus_standard_min": -0.0007121693342924118,
+    "video_l2_weighted_gt_minus_standard_max": 0.00015898048877716064,
+    "elapsed_seconds_mean": 3.119776418991387,
+    "elapsed_seconds_std": 0.3532904191949903,
+    "elapsed_seconds_min": 2.60579492081888,
+    "elapsed_seconds_max": 3.6993155751843005
+  }
+}
